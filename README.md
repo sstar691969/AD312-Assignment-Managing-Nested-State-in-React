@@ -1,17 +1,16 @@
-# AD312-Assignment-Managing-Nested-State-in-React
-Nested state in React
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-William Anderson
-AD312
+Currently, two official plugins are available:
 
-Implementing Nested Updates
-Create a function updateAddress that updates the user's address information. The function should accept street, city, and country parameters.
-Requirement: Ensure the updateAddress function updates the userProfile state immutably, maintaining the other properties of the userProfile object (using the spread operator for both levels).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-UI Elements and Display
-Render input fields for street, city, and country.
-Implement a button to trigger the updateAddress function with the input field values.
-Below the input fields, display the current user profile information, including the nested address fields, to show updates in real-time.
+## React Compiler
 
-Requirement: (3)Test case and (3)edge case.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
